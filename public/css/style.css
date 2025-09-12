@@ -1,0 +1,390 @@
+body {
+    background-color: #f8f9fa;
+    /* Light grey background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top-head {
+    background-image: url('../images/bbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    /* Bootstrap success color */
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 5px solid #198754;
+    /* Green bottom border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+
+    align-items: center;
+    justify-content: center;
+}
+
+
+.top-head img {
+    height: 50px;
+    margin-right: 15px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.second_section {
+    background-image: url('../images/bbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    /* White background for the form section */
+    padding: 30px;
+    max-height: 600px;
+}
+
+.second_section_inner {
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    overlay: rgba(255, 255, 255, 0.8);
+    /* White background for the form section */
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    max-height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.second_section_inner h2 {
+    margin-bottom: 20px;
+    font-weight: 1000;
+    font-size: 33px;
+    color: #ffffff;
+    /* Bootstrap success color */
+    text-align: start;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}  
+
+.second_section_inner p {
+    color: #ffffff;
+    /* White text */
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.second_section_inner form {
+    margin-top: 5px;
+    text-align: start;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-image: url('../images/formbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.second_section_inner form .form-label {
+    font-weight: bold;
+    color: #333333;
+    /* Dark text color */
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    /* Slightly larger font size */
+    text-align: start;
+    display: block;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.second_section_inner form .form-control {
+    border: 2px solid #198754;
+    /* Green border */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    /* Smooth transition for focus effects */
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.second_section_inner form .form-control:focus {
+    border-color: #145c32;
+    /* Darker green on focus */
+    box-shadow: 0 0 8px rgba(25, 135, 84, 0.5);
+    /* Green glow effect */
+    outline: none;
+}
+
+.second_section_inner form .btn {
+    background-color: #198754;
+    /* Bootstrap success color */
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Smooth transition for hover effects */
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.second_section_inner form .btn:hover {
+    border: 2px solid #145c32;
+    background-color: #145c32;
+    /* Darker green on hover */
+    box-shadow: 0 4px 12px rgba(20, 92, 50, 0.3);
+    /* Subtle shadow on hover */
+    color: #ffffff;
+}
+
+.centered-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+/* h3.border-bottom-custom {
+    border-bottom: 3px solid #198754;
+    /* Change color/thickness as needed */
+   /* padding-bottom: 8px;
+    margin-bottom: 20px;
+} */
+
+footer {
+    background-color: #000;
+    /* Light grey background */
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+    /* Dark grey text */
+    border-top: 1px solid #e0e0e0;
+    /* Subtle top border */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+footer a {
+    color: #198754;
+    /* Bootstrap success color */
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .second_section_inner {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .second_section_inner form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .second_section_inner form .btn {
+        width: 50%;
+    }
+}
+
+/* Additional custom styles can be added below */
+
+/* Example: Custom styles for error messages */
+.text-danger {
+    color: #dc3545;
+    /* Bootstrap danger color */
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Example: Custom styles for success messages */
+.text-success {
+    color: #28a745;
+    /* Bootstrap success color */
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.gotopage{
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+    /* White background for the form section */
+    width: 60%;
+    margin: auto;
+    padding: 17px;
+    max-height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    border-radius: 8px;
+    /* Rounded corners */
+    text-align: center;
+    margin-top: 5px;
+}
+
+.gotopage {
+    position: relative;
+    /* ...existing code... */
+}
+
+.gotopage::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(48, 186, 92, 0.515); /* White overlay, adjust opacity as needed */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.gotopage > * {
+    position: relative;
+    z-index: 2;
+}
+
+.gotopage p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #e0e0e0 ;
+    /* text-align: center; */
+    margin-bottom: 30px;
+}
+
+.gotopage h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #e0e0e0;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 233, 128, 0.2);
+    justify-content: center;
+    margin-top: 100px;
+}
+
+ .gotobtn{
+    background-color: #198754;
+    /* Bootstrap success color */
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    /* Smooth transition for hover effects */
+    display: block;
+    margin: auto;
+    width: 25%;
+    text-decoration: none;
+    text-align: center;
+}
+    .gotobtn:hover {
+        border: 2px solid #145c32;
+        background-color: #145c32;
+        /* Darker green on hover */
+        box-shadow: 0 4px 12px rgba(20, 92, 50, 0.3);
+        /* Subtle shadow on hover */
+        color: #ffffff;
+    }
+
+    .card-preview {
+        border: 2px solid #198754;
+        background-image: url('../images/bbg.jpeg');
+        /* Green border */
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        background-color: #f8f9fa;
+        /* Light grey background */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        max-width: 300px;
+        margin: auto;
+        margin-top: -1px;
+    }
+
+    .card-preview img {
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    .card-preview h4 {
+        margin: 0;
+        font-size: 0.7rem;
+        color: #198754;
+        /* Green text */
+    }
+
+    .card-preview p {
+        margin: 5px 0;
+        font-size: 1rem;
+        color: #333333;
+        /* Dark text */
+    }
+
+    .preview-section {
+        text-align: start;
+        margin-top: 30px;
+    }
+
+    .card-preview .passport-preview {
+        width: 130px;
+        height: 140px;
+        border: 2px solid #198754;
+        /* Green border */
+        border-radius: 5px;
+        object-fit: cover;
+        /* Ensure the image covers the area */
+        margin-top: 10px;
+        margin: auto;
+        display: block;
+        background-color: #f8f9fa;
+    }
+
+    .card-preview .logo-preview img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        object-fit: cover;
+    }
+
+    .details-preview {
+        margin-top: px;
+        text-align: start !important;
+        padding: 10px;
+        font-size: 1rem;
+        color: #333333;
+        /* Dark text */
+        line-height: 1.4;
+    }
