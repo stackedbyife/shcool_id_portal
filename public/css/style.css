@@ -5,23 +5,29 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-.top-head {
-    background-image: url('../images/bbg.jpeg');
+     background-image: url('../images/bbg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #ffffff;
+
+}
+
+.top-head {
+    /* background-image: url('../images/bbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff; */
     /* Bootstrap success color */
     padding: 10px 0;
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
     border-bottom: 5px solid #198754;
+
     /* Green bottom border */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     /* Subtle shadow */
 
     align-items: center;
@@ -37,14 +43,14 @@ body {
 }
 
 .second_section {
-    background-image: url('../images/bbg.jpeg');
+    /* background-image: url('../images/bbg.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #ffffff;
+    background-color: #ffffff; */
     /* White background for the form section */
     padding: 30px;
-    max-height: 600px;
+   
 }
 
 .second_section_inner {
@@ -58,13 +64,13 @@ body {
     width: 60%;
     margin: auto;
     padding: 30px;
-    max-height: 450px;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
     border-radius: 8px;
     /* Rounded corners */
     text-align: center;
-    margin-top: 50px;
+    margin-top: 27px;
 }
 
 .second_section_inner h2 {
@@ -96,9 +102,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 300px;
+   
     border-radius: 8px;
 }
+
+.login_form
 
 .second_section_inner form .form-label {
     font-weight: bold;
@@ -110,7 +118,7 @@ body {
     text-align: start;
     display: block;
     margin-left: 5px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .second_section_inner form .form-control {
@@ -199,7 +207,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .second_section_inner {
         width: 90%;
         padding: 20px;
@@ -213,7 +221,7 @@ footer a:hover {
     .second_section_inner form .btn {
         width: 50%;
     }
-}
+} */
 
 /* Additional custom styles can be added below */
 
@@ -245,7 +253,7 @@ footer a:hover {
     width: 60%;
     margin: auto;
     padding: 17px;
-    max-height: 500px;
+    
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     /* Subtle shadow */
     border-radius: 8px;
@@ -329,7 +337,7 @@ footer a:hover {
         /* Light grey background */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Subtle shadow */
-        max-width: 300px;
+       
         margin: auto;
         margin-top: -1px;
     }
