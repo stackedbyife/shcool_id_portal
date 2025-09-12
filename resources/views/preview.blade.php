@@ -15,32 +15,35 @@
         <h3 class="text-center border-bottom-custom">D.S ADEGBENRO ICT POLYTECHNIC ITORI</h3>
         <!-- Existing content of index.php -->
     </div>
-    <div class="second_section">
-        <div class="gotopage">
-            <div class="mb-3 card-preview">
-                
-                    <img src="images/logo.png" alt="" class="logo-preview">
-                    <h4>NIGERIA ASSOCIATION OF COMPUTING STUDENT</h4>
-                    <span>Itori Ewekoro Abeokuta Ogun state </span>
+    <div class="container-fluid">
 
-               
-
-                    <img src="images/profile.png" alt="passport photo" class="passport-preview">
-               
-                <div class="mb-3 details-preview ">
+        <div class="second_section">
+            <div class="gotopage">
+                <div class="mb-3 card-preview">
                     
-                    <p>Matric No: <span>DSA/ICT/001</span></p>
-                    <p>Department: <span>Computer Science</span></p>
-                    <p>Level: <span>ND II</span></p>
-                    <p>Date of Birth: <span>01/01/2000</span></p>
-                    <p>Session: <span>2024/2026</span></p>
+                        <img src="images/logo.png" alt="" class="logo-preview">
+                        <h4>NIGERIA ASSOCIATION OF COMPUTING STUDENT</h4>
+                        <span>Itori Ewekoro Abeokuta Ogun state </span>
+    
+                   
+    
+                        <img src="images/profile.png" alt="passport photo" class="passport-preview">
+                   
+                    <div class="mb-3 details-preview ">
+                        
+                        <p>Matric No: <span >DSA/ICT/001</span></p>
+                        <p>Department: <span>Computer Science</span></p>
+                        <p>Level: <span>ND II</span></p>
+                        <p>Date of Birth: <span>01/01/2000</span></p>
+                        <p>Session: <span>2024/2026</span></p>
+                    </div>
                 </div>
+                
             </div>
-            
         </div>
     </div>
     <footer>
-        <p>@copywrite</p>
+        &copy; {{ date('Y') }} D.S ADEGBENRO ICT POLYTECHNIC ITORI. All rights reserved.
     </footer>
 </body>
 </html>
