@@ -13,16 +13,17 @@
 
 <body>
     <div class="container-fluid">
-
         <div class="col-md top-head">
             <img src="{{ asset('images/logo.png') }}" alt="">
             <h3 class="text-center border-bottom-custom">D.S ADEGBENRO ICT POLYTECHNIC ITORI</h3>
             <!-- Existing content of index.php -->
         </div>
+
         <div class="col-md second_section">
             <div class="col-md second_section_inner">
                 <h2>WELCOME TO DSAP ID CARD REQUEST PORTAL</h2>
-                <p>NOTE: <br><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda doloribus, laboriosam
+                <p>NOTE: <br><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda doloribus,
+                        laboriosam
                         quasi veritatis sequi voluptatibus quia </span></p>
 
                 <form action="{{ route('login.submit') }}" method="post">
@@ -35,6 +36,7 @@
                         <label for="password" class="form-label">PASSWORD:</label>
                         <input type="password" class="form-control " id="password" name="password" required>
                     </div>
+
                     <!-- <button type="submit" class="btn">Login</button> -->
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
@@ -43,6 +45,7 @@
 
 
     </div>
+
     <footer class="text-center mt-4">
         <p>&copy; {{ date('Y') }} D.S ADEGBENRO ICT POLYTECHNIC</p>
     </footer>

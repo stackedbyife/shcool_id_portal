@@ -15,20 +15,23 @@
         <h3 class="text-center border-bottom-custom">D.S ADEGBENRO ICT POLYTECHNIC ITORI</h3>
         <!-- Existing content of index.php -->
     </div>
-    <div class="second_section">
-        <div class="gotopage">
-           <h1 class="text-bold">REGISTRATION SUCCESSFUL!</h1>
+    <div class="container mx-70 my-5">
 
-           <P class="goto">Go to the DSA (Directorate of Student Affairs) to get your printed ID CARD in 3 days after the registration </P>
-
-              <div class="mb-3">
-                <a href="index.php" class="gotobtn">Login</a>
-              </div>
-            
+        <div class="col-md second_section">
+            <div class=" col-md gotopage">
+               <h1 class="text-bold">REGISTRATION SUCCESSFUL!</h1>
+    
+               <P class="goto">Go to the DSA (Directorate of Student Affairs) to get your printed ID CARD in 3 days after the registration </P>
+    
+                  <div class="col-md mb-3">
+                    <a href="index.php" class="gotobtn">Login</a>
+                  </div>
+                
+            </div>
         </div>
     </div>
     <footer>
-        <p>@copywrite</p>
+        &copy; {{ date('Y') }} D.S ADEGBENRO ICT POLYTECHNIC ITORI. All rights reserved.
     </footer>
 </body>
 </html>

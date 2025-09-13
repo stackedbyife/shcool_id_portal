@@ -13,11 +13,16 @@ body {
 
 }
 
+
+
 .top-head {
-    /* background-image: url('../images/bbg.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+     background-image: url('../images/bbg.jpeg');
+     background-repeat: no-repeat;
+     background-position: center;
+        background-size: cover;
+    /*
+    
+    
     background-color: #ffffff; */
     /* Bootstrap success color */
     padding: 10px 0;
@@ -26,12 +31,21 @@ body {
     font-size: 1.5rem;
     border-bottom: 5px solid #198754;
 
+
     /* Green bottom border */
     /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
     /* Subtle shadow */
 
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: -20px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    
+   
 }
 
 
@@ -71,6 +85,25 @@ body {
     /* Rounded corners */
     text-align: center;
     margin-top: 27px;
+}
+
+.second_section_inner {
+    position: relative;
+    /* ...existing code... */
+}
+
+.second_section_inner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(48, 186, 92, 0.515); /* White overlay, adjust opacity as needed */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.second_section_inner > * {
+    position: relative;
+    z-index: 2;
 }
 
 .second_section_inner h2 {
@@ -337,14 +370,19 @@ footer a:hover {
         /* Light grey background */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Subtle shadow */
+        width: 40%;
+        height: 450px;
        
         margin: auto;
         margin-top: -1px;
     }
 
-    .card-preview img {
+    .card-preview img { 
+        width: 40px;
         height: 40px;
         border-radius: 5px;
+        margin-bottom: 10px;
+        object-fit: cover;
     }
 
     .card-preview h4 {
@@ -395,4 +433,17 @@ footer a:hover {
         color: #333333;
         /* Dark text */
         line-height: 1.4;
+    }
+
+   .card-preview .passport-preview {
+        border: 2px solid #198754;
+        /* Green border */
+        border-radius: 5px;
+        object-fit: cover;
+        /* Ensure the image covers the area */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 150px;
+        height: 160px;
+        background-color: #f8f9fa;
     }
